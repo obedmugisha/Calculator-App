@@ -10,7 +10,7 @@ let input = document.getElementById('inputBox');
                     input.value = string;
                 }
         
-                else if(e.target.innerHTML == 'AC'){
+                else if(e.target.innerHTML == 'AC' && e.target.innerHTML == 'DEL'){
                     string="";
                     input.value = string;
                 }
@@ -25,3 +25,4 @@ let input = document.getElementById('inputBox');
         
             })
         })
+        
